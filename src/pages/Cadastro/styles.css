@@ -1,0 +1,117 @@
+.form-content {
+    /* border: 1px solid red; */
+    height: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 768px){
+    .image-container {
+        /* width: 50%; */
+    }
+    .register-header{
+        /* width: 200vw; */
+
+        
+        /* border: 1px solid red; */
+    }
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container label{ 
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.register-header {
+    width: 99%;
+    /* border: 1px solid red; */
+    /* color: black; */
+
+}
+
+.join-group {
+    background-color: rgb(186, 220, 88);
+}
+
+.join-group p {
+    color: white;
+}
+.register-header a {
+    color: rgb(186, 220, 88);
+}
+
+.data-content{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    /* border: 1px solid red; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+.dados-pf {
+    display: flex;
+}
+
+.register-datas {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 10px 0;
+    display: flex;
+
+    flex-direction: column;
+    
+    
+}
+
+.form-control {
+    /* width: 90%; */
+    height: 3.5vh;
+    /* color: #ccced9; */
+    padding: 5px 15px;
+    font-size: 1em;
+    margin-right: 15px;
+
+    border-radius: 5px;
+    border: 1px solid #ccced9;
+}
+
+.cadastro-btn {
+    width: 30%;
+    height: 4.5%;
+    background-color: rgb(186, 220, 88);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
